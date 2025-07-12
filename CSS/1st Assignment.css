@@ -10,6 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+p{
+  font-weight: 300;
+}
 /*header*/
 .topmost{
   display: flex;
@@ -25,11 +29,11 @@
 .signup-btn{
   background-color: #4E47FF;
   color: white;
-  font-size: 16px;
-  font-weight:500;
+  font-size: 13px;
+  font-weight:600;
   border-color: #4E47FF;
   border-radius: 10px;
-  padding: 12px 30px ;
+  padding: 10px 25px ;
   box-shadow: white;
 }
 header{
@@ -50,10 +54,28 @@ header{
 .sfbtn{
   background-color: #4E47FF;
   color: white;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   border-color: #4E47FF;
   border-radius: 10px;
   padding: 12px 30px ;
   box-shadow: white;
+}
+
+/*ACTION SECTION*/
+
+.action-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 100px;
+}
+
+.see-action{
+  align-content: space-around;
+}
+
+/*user section*/
+
+.stat-section{
+  display:flex
 }
