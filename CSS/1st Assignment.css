@@ -39,7 +39,6 @@ p{
   cursor: pointer;
 }
 header{
-  background-image: url(/Hero-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,7 +147,6 @@ header{
   justify-content: space-between;
   gap: 10px;
   padding: 100px 100px;
-  padd
 
 }
 
@@ -197,4 +195,72 @@ header{
   padding: 5px 10px ;
   box-shadow: white;
   cursor: pointer;
+}
+
+
+/*get in touch*/
+
+.login-section{
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.left h1{
+  font-size: 76px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.right form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+form label{
+  font-weight: bold;
+}
+
+form input, form textarea{
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button{
+  color: white;
+  padding: 10px;
+  border: none;
+  background-color: #4E47FF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer{
+  text-align: center;
+  padding: 80px;
+  background-color: white;
+}
+
+.logo{
+  font-size: 66px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+footer nav a{
+  cursor: pointer;
+}
+body{
+  background-color: #d4d3fd;
 }
